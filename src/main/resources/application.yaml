@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: product-catalog-management
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/productsdb
+
+logging:
+  level:
+    org:
+      springframework:
+        web: trace
